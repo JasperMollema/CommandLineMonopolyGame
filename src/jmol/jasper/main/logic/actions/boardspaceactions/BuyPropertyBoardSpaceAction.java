@@ -1,10 +1,10 @@
 package jmol.jasper.main.logic.actions.boardspaceactions;
 
-import jmol.jasper.MonopolyBoard.BoardSpaces.Property;
-import jmol.jasper.MonopolyBoard.Data.Bank;
-import jmol.jasper.MonopolyBoard.Data.MonopolyBoardData;
-import jmol.jasper.Player.Logic.Player;
-import jmol.jasper.UserInterface.Logic.ExpressionProvider;
+import jmol.jasper.main.data.boardspaces.Property;
+import jmol.jasper.main.data.miscellaneous.Bank;
+import jmol.jasper.main.data.miscellaneous.MonopolyBoardData;
+import jmol.jasper.main.logic.player.Player;
+import jmol.jasper.main.userinterface.ExpressionProvider;
 
 public class BuyPropertyBoardSpaceAction implements BoardSpaceAction {
 

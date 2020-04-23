@@ -1,10 +1,10 @@
 package jmol.jasper.main.logic.actions.playeractions;
 
-import jmol.jasper.MonopolyBoard.BoardSpaces.Street;
-import jmol.jasper.MonopolyBoard.Data.Bank;
-import jmol.jasper.MonopolyBoard.Data.Board;
-import jmol.jasper.Player.Logic.Player;
-import jmol.jasper.UserInterface.Logic.ExpressionProvider;
+import jmol.jasper.main.data.boardspaces.Street;
+import jmol.jasper.main.data.miscellaneous.Bank;
+import jmol.jasper.main.data.miscellaneous.Board;
+import jmol.jasper.main.logic.player.Player;
+import jmol.jasper.main.userinterface.ExpressionProvider;
 
 import java.util.ArrayList;
 import java.util.List;

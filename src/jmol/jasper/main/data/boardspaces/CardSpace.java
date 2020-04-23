@@ -1,8 +1,8 @@
 package jmol.jasper.main.data.boardspaces;
 
-import jmol.jasper.MonopolyBoard.Data.Card;
-import jmol.jasper.MonopolyBoard.Data.MonopolyBoardData;
-import jmol.jasper.MonopolyGame.BoardSpaceActions.CardAction;
+import jmol.jasper.main.data.miscellaneous.Card;
+import jmol.jasper.main.data.miscellaneous.MonopolyBoardData;
+import jmol.jasper.main.logic.actions.boardspaceactions.CardAction;
 
 public abstract class CardSpace extends Boardspace {
 

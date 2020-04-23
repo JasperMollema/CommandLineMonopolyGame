@@ -1,7 +1,7 @@
 package jmol.jasper.main.data.boardspaces;
 
-import jmol.jasper.MonopolyBoard.Data.Bank;
-import jmol.jasper.MonopolyBoard.Data.MonopolyBoardData;
+import jmol.jasper.main.data.miscellaneous.Bank;
+import jmol.jasper.main.data.miscellaneous.MonopolyBoardData;
 
 public class Utility extends Property {
 

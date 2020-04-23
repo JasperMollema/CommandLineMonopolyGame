@@ -1,9 +1,9 @@
 package jmol.jasper.main.logic.game;
 
-import jmol.jasper.MonopolyBoard.BoardSpaces.Boardspace;
-import jmol.jasper.MonopolyBoard.Data.MonopolyBoardData;
-import jmol.jasper.Player.Logic.Player;
-import jmol.jasper.UserInterface.Logic.ExpressionProvider;
+import jmol.jasper.main.data.boardspaces.Boardspace;
+import jmol.jasper.main.data.miscellaneous.MonopolyBoardData;
+import jmol.jasper.main.logic.player.Player;
+import jmol.jasper.main.userinterface.ExpressionProvider;
 
 import java.util.HashMap;
 import java.util.Map;

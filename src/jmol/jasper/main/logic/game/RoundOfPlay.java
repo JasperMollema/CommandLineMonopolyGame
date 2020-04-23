@@ -1,6 +1,6 @@
 package jmol.jasper.main.logic.game;
 
-import jmol.jasper.Player.Logic.Player;
+import jmol.jasper.main.logic.player.Player;
 
 public class RoundOfPlay {
     private Player player;

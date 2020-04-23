@@ -1,4 +1,4 @@
-package jmol.jasper.test;
+package jmol.jasper.test.logic.actions;
 
 import org.junit.jupiter.api.Test;
 

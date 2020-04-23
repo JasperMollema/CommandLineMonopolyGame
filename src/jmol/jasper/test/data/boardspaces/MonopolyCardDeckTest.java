@@ -1,5 +1,8 @@
-package jmol.jasper.test;
+package jmol.jasper.test.data.boardspaces;
 
+import jmol.jasper.main.data.miscellaneous.Card;
+import jmol.jasper.main.data.miscellaneous.CardBuilder;
+import jmol.jasper.main.data.miscellaneous.MonopolyCardDeck;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

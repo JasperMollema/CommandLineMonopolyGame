@@ -1,9 +1,9 @@
 package jmol.jasper.main.logic.actions;
 
-import jmol.jasper.MonopolyBoard.BoardSpaces.Property;
-import jmol.jasper.MonopolyBoard.Data.MonopolyBoardData;
-import jmol.jasper.MonopolyGame.Actions.PlayerActions.PlayerAction;
-import jmol.jasper.Player.Logic.Player;
+import jmol.jasper.main.data.boardspaces.Property;
+import jmol.jasper.main.data.miscellaneous.MonopolyBoardData;
+import jmol.jasper.main.logic.actions.playeractions.PlayerAction;
+import jmol.jasper.main.logic.player.Player;
 
 public class PrintPlayerStatus implements PlayerAction {
 

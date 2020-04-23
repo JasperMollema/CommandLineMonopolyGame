@@ -1,6 +1,6 @@
 package jmol.jasper.main.logic.player;
 
-import jmol.jasper.MonopolyBoard.BoardSpaces.Property;
+import jmol.jasper.main.data.boardspaces.Property;
 
 import java.util.*;
 

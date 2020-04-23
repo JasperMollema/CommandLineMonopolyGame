@@ -1,10 +1,10 @@
 package jmol.jasper.main.data.boardspaces;
 
-import jmol.jasper.MonopolyBoard.Data.MonopolyBoardData;
-import jmol.jasper.MonopolyGame.BoardSpaceActions.BoardSpaceAction;
-import jmol.jasper.MonopolyGame.BoardSpaceActions.BuyPropertyBoardSpaceAction;
-import jmol.jasper.MonopolyGame.BoardSpaceActions.PayRentBoardSpaceAction;
-import jmol.jasper.Player.Logic.Player;
+import jmol.jasper.main.data.miscellaneous.MonopolyBoardData;
+import jmol.jasper.main.logic.actions.boardspaceactions.BoardSpaceAction;
+import jmol.jasper.main.logic.actions.boardspaceactions.BuyPropertyBoardSpaceAction;
+import jmol.jasper.main.logic.actions.boardspaceactions.PayRentBoardSpaceAction;
+import jmol.jasper.main.logic.player.Player;
 
 public abstract class Property extends Boardspace {
     public final int VALUE;

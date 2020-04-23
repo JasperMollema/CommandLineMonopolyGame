@@ -1,9 +1,9 @@
 package jmol.jasper.main.userinterface;
 
-import jmol.jasper.MonopolyGame.Actions.PlayerActions.BuyHousesAction;
-import jmol.jasper.MonopolyGame.Actions.PlayerActions.PlayerAction;
-import jmol.jasper.MonopolyGame.Actions.PlayerActions.SellHouseBoardSpaceAction;
-import jmol.jasper.MonopolyGame.Actions.PrintPlayerStatus;
+import jmol.jasper.main.logic.actions.PrintPlayerStatus;
+import jmol.jasper.main.logic.actions.playeractions.BuyHousesAction;
+import jmol.jasper.main.logic.actions.playeractions.PlayerAction;
+import jmol.jasper.main.logic.actions.playeractions.SellHouseBoardSpaceAction;
 
 public class KeuzeMenu {
     private String[] optionsBeforeTurn;

@@ -1,10 +1,10 @@
 package jmol.jasper.main.data.miscellaneous;
 
-import jmol.jasper.MonopolyBoard.BoardSpaces.Property;
-import jmol.jasper.MonopolyBoard.BoardSpaces.Station;
-import jmol.jasper.MonopolyBoard.BoardSpaces.Street;
-import jmol.jasper.MonopolyBoard.BoardSpaces.Utility;
-import jmol.jasper.Player.Logic.Player;
+import jmol.jasper.main.data.boardspaces.Property;
+import jmol.jasper.main.data.boardspaces.Station;
+import jmol.jasper.main.data.boardspaces.Street;
+import jmol.jasper.main.data.boardspaces.Utility;
+import jmol.jasper.main.logic.player.Player;
 
 import java.util.ArrayList;
 import java.util.HashMap;

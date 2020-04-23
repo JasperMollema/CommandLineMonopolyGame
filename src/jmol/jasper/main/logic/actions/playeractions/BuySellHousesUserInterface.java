@@ -1,7 +1,7 @@
 package jmol.jasper.main.logic.actions.playeractions;
 
-import jmol.jasper.MonopolyBoard.BoardSpaces.Street;
-import jmol.jasper.UserInterface.Logic.ExpressionProvider;
+import jmol.jasper.main.data.boardspaces.Street;
+import jmol.jasper.main.userinterface.ExpressionProvider;
 
 import java.util.List;
 

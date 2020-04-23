@@ -1,13 +1,13 @@
-package jmol.jasper.test;
+package jmol.jasper.test.data.miscellaneous;
 
-import jmol.jasper.MonopolyBoard.BoardSpaces.Street;
-import jmol.jasper.TestStreet;
+import jmol.jasper.main.data.boardspaces.Street;
+import jmol.jasper.main.data.miscellaneous.MonopolyBoardData;
+import jmol.jasper.test.data.boardspaces.TestStreet;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class MonopolyBoardDataTest {

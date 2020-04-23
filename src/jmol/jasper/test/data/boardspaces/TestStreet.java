@@ -1,7 +1,7 @@
-package jmol.jasper.test;
+package jmol.jasper.test.data.boardspaces;
 
-import jmol.jasper.MonopolyBoard.BoardSpaces.Street;
-import jmol.jasper.MonopolyBoard.Data.MonopolyBoardData;
+import jmol.jasper.main.data.boardspaces.Street;
+import jmol.jasper.main.data.miscellaneous.MonopolyBoardData;
 
 public class TestStreet extends Street {
     public int numberOfTestHouses;

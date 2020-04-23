@@ -1,9 +1,8 @@
-package jmol.jasper.test;
+package jmol.jasper.test.logic.player;
 
-import jmol.jasper.Player.Logic.Player;
+import jmol.jasper.main.logic.player.Player;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class PlayerTest {

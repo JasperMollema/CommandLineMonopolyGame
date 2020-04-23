@@ -1,6 +1,6 @@
 package jmol.jasper.main.data.miscellaneous;
 
-import jmol.jasper.MonopolyBoard.BoardSpaces.*;
+import jmol.jasper.main.data.boardspaces.*;
 
 import java.util.ArrayList;
 import java.util.Arrays;

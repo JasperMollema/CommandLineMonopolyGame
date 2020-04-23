@@ -1,9 +1,9 @@
 package jmol.jasper.main.logic.actions;
 
-import jmol.jasper.MonopolyBoard.BoardSpaces.Boardspace;
-import jmol.jasper.MonopolyBoard.Data.Bank;
-import jmol.jasper.MonopolyGame.BoardSpaceActions.BoardSpaceAction;
-import jmol.jasper.Player.Logic.Player;
+import jmol.jasper.main.data.boardspaces.Boardspace;
+import jmol.jasper.main.data.miscellaneous.Bank;
+import jmol.jasper.main.logic.actions.boardspaceactions.BoardSpaceAction;
+import jmol.jasper.main.logic.player.Player;
 
 public abstract class PlayerBoardSpaceAction implements BoardSpaceAction {
     protected Bank bank;

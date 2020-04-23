@@ -1,7 +1,7 @@
 package jmol.jasper.main.data.boardspaces;
 
-import jmol.jasper.MonopolyBoard.Data.MonopolyBoardData;
-import jmol.jasper.MonopolyGame.BoardSpaceActions.BoardSpaceAction;
+import jmol.jasper.main.data.miscellaneous.MonopolyBoardData;
+import jmol.jasper.main.logic.actions.boardspaceactions.BoardSpaceAction;
 
 public class Start extends Boardspace{
 

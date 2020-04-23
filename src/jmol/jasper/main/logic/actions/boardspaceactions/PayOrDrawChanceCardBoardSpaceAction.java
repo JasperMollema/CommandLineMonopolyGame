@@ -1,7 +1,7 @@
 package jmol.jasper.main.logic.actions.boardspaceactions;
 
-import jmol.jasper.MonopolyGame.Actions.PlayerActions.PlayerAction;
-import jmol.jasper.Player.Logic.Player;
+import jmol.jasper.main.logic.actions.playeractions.PlayerAction;
+import jmol.jasper.main.logic.player.Player;
 
 public class PayOrDrawChanceCardBoardSpaceAction implements PlayerAction {
 

@@ -1,6 +1,6 @@
 package jmol.jasper.main.data.miscellaneous;
 
-import jmol.jasper.MonopolyGame.Actions.ActionType;
+import jmol.jasper.main.logic.actions.ActionType;
 
 public class CardData {
     private static CardBuilder cardBuilder = new CardBuilder();

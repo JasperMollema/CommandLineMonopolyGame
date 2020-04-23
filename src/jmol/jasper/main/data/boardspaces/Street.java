@@ -1,8 +1,8 @@
 package jmol.jasper.main.data.boardspaces;
 
-import jmol.jasper.MonopolyBoard.Data.Bank;
-import jmol.jasper.MonopolyBoard.Data.MonopolyBoardData;
-import jmol.jasper.Player.Logic.Player;
+import jmol.jasper.main.data.miscellaneous.Bank;
+import jmol.jasper.main.data.miscellaneous.MonopolyBoardData;
+import jmol.jasper.main.logic.player.Player;
 
 public class Street extends Property {
     public final int PRICE_HOUSE;

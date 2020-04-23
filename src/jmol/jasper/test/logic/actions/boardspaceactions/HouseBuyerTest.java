@@ -1,7 +1,11 @@
-package jmol.jasper.test;
+package jmol.jasper.test.logic.actions.boardspaceactions;
 
-import jmol.jasper.MonopolyBoard.BoardSpaces.Street;
-import jmol.jasper.Player.Logic.Player;
+import jmol.jasper.main.data.boardspaces.Street;
+import jmol.jasper.main.logic.actions.playeractions.HouseBuyer;
+import jmol.jasper.main.logic.actions.playeractions.TransactionType;
+import jmol.jasper.main.logic.player.Player;
+import jmol.jasper.test.TestBank;
+import jmol.jasper.test.data.boardspaces.TestStreet;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
