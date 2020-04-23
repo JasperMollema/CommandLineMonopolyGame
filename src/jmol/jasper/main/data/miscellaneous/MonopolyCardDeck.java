@@ -5,12 +5,14 @@ import java.util.*;
 public class MonopolyCardDeck {
     private Deque<Card> cardsInPlay;
     private List<Card> discardedCards;
+    private Random cardShuffler;
     private final List allCardsInDeck;
 
     public MonopolyCardDeck(Card[] cardArray){
         cardsInPlay = new ArrayDeque<>();
         discardedCards = new ArrayList<>();
         allCardsInDeck = new ArrayList();
+        cardShuffler = new Random();
         if (cardArray.length < 1) {
             throw new IllegalArgumentException("Er moet teminste 1 kaart in het pak zitten");
         }
@@ -38,12 +40,22 @@ public class MonopolyCardDeck {
     public void shuffleCards() {
         int cardsToBeShuffled = cardsInPlay.size();
         Card[]shuffledCards = new Card[cardsToBeShuffled];
-        Random cardShuffler = new Random();
+        List<Integer> usedSlots = new ArrayList<>();
+
         for (Card card : cardsInPlay) {
-            int newCardPosition = cardShuffler.nextInt(cardsToBeShuffled);
-            shuffledCards[newCardPosition] = card;
-            cardsToBeShuffled--;
+            boolean cardReplaced = false;
+
+            while (!cardReplaced) {
+                int newCardPosition = cardShuffler.nextInt(cardsToBeShuffled);
+
+                if (!usedSlots.contains(newCardPosition)) {
+                    shuffledCards[newCardPosition] = card;
+                    usedSlots.add(newCardPosition);
+                    cardReplaced = true;
+                }
+            }
         }
+
         refillCardsInPlay(shuffledCards);
     }
 
@@ -68,9 +80,6 @@ public class MonopolyCardDeck {
     }
 
     private void emptyCardsInPlay() {
-        int numberOfCardsInPlay = cardsInPlay.size();
-        for (int i = 0; i < numberOfCardsInPlay; i++) {
-            cardsInPlay.remove();
-        }
+        cardsInPlay.clear();
     }
 }
